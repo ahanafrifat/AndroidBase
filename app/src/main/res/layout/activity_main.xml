@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.solutionart.welcomescreen.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonWelcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Collapsing Wellcome Screen"
+                tools:layout_editor_absoluteX="169dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <Button
+                android:id="@+id/buttonDashboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dash board"
+                tools:layout_editor_absoluteX="301dp" />
+
+            <Button
+                android:id="@+id/buttonWelcomeScreenWithUpToDownAnimationActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome With Animation Activity"
+                tools:layout_editor_absoluteX="137dp" />
+
+            <Button
+                android:id="@+id/buttonSplashScreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Splash Screen"
+                tools:layout_editor_absoluteX="278dp" />
+
+            <Button
+                android:id="@+id/buttonNavigationDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Navigation Drawer"
+                tools:layout_editor_absoluteX="244dp" />
+
+            <Button
+                android:id="@+id/buttonLogIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Log In"
+                tools:layout_editor_absoluteX="323dp" />
+
+            <Button
+                android:id="@+id/buttonRecylerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recyler View" />
+
+            <Button
+                android:id="@+id/buttonProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Progress Bar"
+                tools:layout_editor_absoluteX="286dp" />
+
+            <Button
+                android:id="@+id/buttonSocialLogIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Social LogIn"
+                tools:layout_editor_absoluteX="295dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <Button
+                android:id="@+id/buttonWeather"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Weather"
+                tools:layout_editor_absoluteX="322dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <Button
+                android:id="@+id/buttonGoogleMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Google Map" />
+
+            <Button
+                android:id="@+id/buttonCamera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
